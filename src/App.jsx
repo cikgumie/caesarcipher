@@ -83,7 +83,7 @@ const CipherTab = () => {
           </div>
         </div>
 
-        <div className="text-sm text-gray-600 mb-1">Aksara Teks Sandi:</div>
+        <div className="text-sm text-gray-600 mb-1">Aksara Teks Caesar:</div>
         <div className="overflow-x-auto">
           <div className="grid grid-cols-26 gap-0 text-center border rounded-lg min-w-[520px] border-gray-200">
             {getShiftedAlphabet().map((letter) => (
@@ -284,7 +284,7 @@ const CaesarCipher = () => {
               value="cipher" 
               className="data-[state=active]:bg-white rounded-sm"
             >
-              Sandi
+              Caesar
             </TabsTrigger>
             <TabsTrigger 
               value="practice"
